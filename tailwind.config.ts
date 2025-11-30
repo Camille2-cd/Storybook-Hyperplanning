@@ -25,6 +25,7 @@ export default {
         },
         "light-purple": "hsl(var(--light-purple))",
         "black-40": "hsl(var(--black-40))",
+        "main-grey": "hsl(var(--main-grey))",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
