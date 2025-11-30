@@ -14,12 +14,21 @@ export default function Index() {
           </p>
         </div>
 
-        <div className="text-center mb-16">
+        <div className="flex flex-wrap justify-center gap-6 mb-16">
           <Link
             to="/components"
             className="inline-flex items-center gap-2 text-light-purple hover:text-light-purple/80 font-medium transition-colors"
           >
             <span>View Checkbox Components</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+            </svg>
+          </Link>
+          <Link
+            to="/toggle"
+            className="inline-flex items-center gap-2 text-light-purple hover:text-light-purple/80 font-medium transition-colors"
+          >
+            <span>View Toggle Component</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
             </svg>
