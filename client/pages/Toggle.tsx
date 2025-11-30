@@ -11,7 +11,7 @@ export default function TogglePage() {
   const [mobileDeactivated, setMobileDeactivated] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#E7E7FF]">
+    <div className="min-h-screen">
       <div className="rounded-t-3xl p-8 md:p-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black mb-4">
           Toggle
