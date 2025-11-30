@@ -1,16 +1,29 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
             Button Component Showcase
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
             A responsive, customizable button component with multiple variants, states, and icon positions
           </p>
+        </div>
+
+        <div className="text-center mb-16">
+          <Link
+            to="/components"
+            className="inline-flex items-center gap-2 text-light-purple hover:text-light-purple/80 font-medium transition-colors"
+          >
+            <span>View Checkbox Components</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+            </svg>
+          </Link>
         </div>
 
         <div className="space-y-16">
