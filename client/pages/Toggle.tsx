@@ -12,7 +12,7 @@ export default function TogglePage() {
 
   return (
     <div className="min-h-screen bg-[#E7E7FF]">
-      <div className="rounded-t-3xl bg-light-purple p-8 md:p-10">
+      <div className="rounded-t-3xl p-8 md:p-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black mb-4">
           Toggle
         </h1>
